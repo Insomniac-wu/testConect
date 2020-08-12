@@ -39,4 +39,4 @@ val_ds = tf.keras.preprocessing.image_dataset_from_directory(
 )
 
 class_names = train_ds.class_names
-print(class_names)
+print("class labels : ",class_names)
